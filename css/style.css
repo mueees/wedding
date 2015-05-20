@@ -1,0 +1,67 @@
+body {
+    color: white;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+/*FONT*/
+
+.slide {
+    position: relative;
+    overflow: hidden;
+}
+.slide .content{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 100%;
+}
+
+.slide.slide-1 .content .description{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.slide.slide-2 .content .description{
+    width: 450px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    height: 80%;
+}
+
+.slide .content .description {
+    background: rgba(43, 39, 35, 0.84);
+    padding: 10px 20px 20px;
+    font-size: 20px;
+}
+
+.slide .content .title {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 75px;
+}
+
+.slide .content .title-second {
+    text-align: left;
+    font-size: 50px;
+    margin: 30px 0 30px 30px;
+}
+
+.slide .background{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+/*MAP*/
+#map{
+    width: 100%;
+    height: 500px;
+    color: rgba(59, 22, 8, 0.78);
+    padding: 0;
+    margin: 0;
+}
