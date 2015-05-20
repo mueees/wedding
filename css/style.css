@@ -30,6 +30,19 @@ body {
     height: 80%;
 }
 
+.slide.slide-4 .content .description{
+    width: 415px;
+    position: absolute;
+    right: 200px;
+    top: 130px;
+    padding-bottom: 50px;
+}
+
+.slide.slide-4 .content .title-second{
+    text-align: right;
+    margin: 30px 200px 30px 0;
+}
+
 .slide .content .description {
     background: rgba(43, 39, 35, 0.84);
     padding: 10px 20px 20px;
@@ -45,7 +58,7 @@ body {
 .slide .content .title-second {
     text-align: left;
     font-size: 50px;
-    margin: 30px 0 30px 30px;
+    margin: 30px 0 30px 75px;
 }
 
 .slide .background{
@@ -57,11 +70,32 @@ body {
     opacity: 0.9;
 }
 
+.main-menu {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+}
+
+.main-menu a {
+    color: white;
+    font-size: 18px;
+}
+
+.main-menu li {
+    margin-bottom: 10px;
+}
+
 /*MAP*/
 #map{
     width: 100%;
     height: 500px;
     color: rgba(59, 22, 8, 0.78);
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 200px;
+}
+
+.sliders img{
+    width: 100px;
+    height: 100px;
 }

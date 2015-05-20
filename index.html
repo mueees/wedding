@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
 
     <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/lightbox.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 
     <script src="scripts/jquery.js"></script>
+    <script src="scripts/lightbox.min.js"></script>
     <!--google maps-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 
@@ -16,8 +18,22 @@
 </head>
 <body>
 
+<div class="main-menu">
+    <ul>
+        <li>
+            <a href="#home">Главная</a>
+        </li>
+        <li>
+            <a href="#where">Дача</a>
+        </li>
+        <li>
+            <a href="#style">Формат</a>
+        </li>
+    </ul>
+</div>
+
 <div class="content">
-    <div class="slide slide-1">
+    <div id="home" class="slide slide-1">
         <div class="content">
             <div class="title">Виталик и Света</div>
             <div class="description">
@@ -30,10 +46,47 @@
         </div>
         <img src="images/1.jpg" alt="" class="background"/>
     </div>
-    <div class="slide slide-2">
+    <div id="where" class="slide slide-2">
         <div class="content">
-            <div class="title-second">Место празднования</div>
+            <div class="title-second">Уютное место</div>
             <div id="map"></div>
+            <div class="description">
+                <p>
+                    Мы наконец-то решили это сделать. <br/>
+                    Сделать решили это мы.<br/>
+                    Сделать решили это мы.<br/>
+                    Сделать решили это мы.<br/>
+                    Сделать решили это мы.<br/>
+                    И ждем вас тут.
+                </p>
+
+                <div class="sliders">
+                    <a href="images/da4a/1.jpg" data-lightbox="da4a">
+                        <img src="images/da4a/1.jpg" alt=""/>
+                    </a>
+                    <a href="images/da4a/2.jpg" data-lightbox="da4a">
+                        <img src="images/da4a/2.jpg" alt=""/>
+                    </a>
+                    <a href="images/da4a/3.jpg" data-lightbox="da4a">
+                        <img src="images/da4a/3.jpg" alt=""/>
+                    </a>
+                    <a href="images/da4a/5.jpg" data-lightbox="da4a">
+                        <img src="images/da4a/5.jpg" alt=""/>
+                    </a>
+                    <a href="images/da4a/6.jpg" data-lightbox="da4a">
+                        <img src="images/da4a/6.jpg" alt=""/>
+                    </a>
+                    <a href="images/da4a/7.png" data-lightbox="da4a">
+                        <img src="images/da4a/7.png" alt=""/>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="images/2.jpg" alt="" class="background"/>
+    </div>
+    <div id="style" class="slide slide-4">
+        <div class="content">
+            <div class="title-second">Чем будут угощать?</div>
             <div class="description">
                 <p>
                     Мы наконец-то решили это сделать. <br/>
@@ -45,7 +98,7 @@
                 </p>
             </div>
         </div>
-        <img src="images/2.jpg" alt="" class="background"/>
+        <img src="images/4.jpg" alt="" class="background"/>
     </div>
 </div>
 
