@@ -10,6 +10,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .slide .content{
     position: relative;
     z-index: 2;

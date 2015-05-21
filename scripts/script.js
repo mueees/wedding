@@ -1,16 +1,16 @@
 $(document).ready(function () {
-
-
     //resize all div
-    (function () {
+    /*(function () {
         $(window).on('resize', resizeDiv);
 
         function resizeDiv() {
-            $('.slide').height($(window).height());
+            $('.slide').css({
+                'min-height': $(window).height()
+            });
         }
 
         resizeDiv();
-    })();
+    })();*/
 
     //add google maps
     (function () {
