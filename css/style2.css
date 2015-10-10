@@ -399,3 +399,27 @@ and (max-width: 1400px) {
     text-align: center;
     padding: 15px 0;
 }
+
+
+.fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    webkit-transition: top 7s ease-out, left 7s ease-out, opacity 0.7s ease-out, -webkit-transform 7s ease-out;
+    -moz-transition: all 7s;
+    -o-transition: all 7s;
+    transition-duration: 7s;
+    transition-property: all !important;
+    transition-duration: 7s !important;
+    transition: all 7s;
+}
+
+.fotorama__wrap--css3 .fotorama__stage .fotorama__img:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
